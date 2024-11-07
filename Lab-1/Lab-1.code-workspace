@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Pryor-part-one"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Lab-1"
+	}
+}

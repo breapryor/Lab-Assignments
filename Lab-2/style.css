@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 20px;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-left:20px solid #d4d3d3;
+    border-right: 20px solid #d4d3d3;
+    background-color: white;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Seaweed Script', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    text-align: left;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.body-text {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.image-container {
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+
+.image-container img {
+    border: 15px solid white;
+    border-bottom: 60px solid white;
+    box-shadow: 5px 5px 10px #999;
+    margin-bottom: 10px;
+    width: 500px;
+    height: auto;
+}
+
+
+.image1 {
+    flex: 1;
+    justify-content: flex-end;
+    float: right;
+    clear:both;
+    transform: rotate(5deg);
+    text-align: center;
+ }
+ 
+ .image2 {
+    flex: 1;
+     justify-content: flex-start;
+     float: left;
+     clear: both;
+     transform: rotate(5deg);
+     text-align: center;
+ }
+
+
+ .caption {
+    font-style: italic;
+    color: #333;
+}
